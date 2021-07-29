@@ -1,0 +1,117 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+    <ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+    <property name="geometry">
+    <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+    </rect>
+    </property>
+    <property name="windowTitle">
+    <string>MainWindow</string>
+    </property>
+    <widget class="QWidget" name="centralwidget">
+    <widget class="QLineEdit" name="userInput">
+        <property name="geometry">
+        <rect>
+        <x>280</x>
+        <y>100</y>
+        <width>221</width>
+        <height>41</height>
+        </rect>
+        </property>
+    </widget>
+    <widget class="QLabel" name="webAddress_label">
+        <property name="geometry">
+        <rect>
+        <x>100</x>
+        <y>100</y>
+        <width>111</width>
+        <height>31</height>
+        </rect>
+        </property>
+        <property name="text">
+        <string>Website Address</string>
+        </property>
+    </widget>
+    <widget class="QPushButton" name="sim_search_btn">
+        <property name="geometry">
+        <rect>
+        <x>360</x>
+        <y>190</y>
+        <width>75</width>
+        <height>23</height>
+        </rect>
+        </property>
+        <property name="text">
+        <string>Search</string>
+        </property>
+    </widget>
+    <widget class="QLabel" name="IP_label">
+        <property name="geometry">
+        <rect>
+        <x>100</x>
+        <y>260</y>
+        <width>101</width>
+        <height>20</height>
+        </rect>
+        </property>
+        <property name="text">
+        <string>IP Address Result</string>
+        </property>
+    </widget>
+    <widget class="QLineEdit" name="ipResult">
+        <property name="geometry">
+        <rect>
+        <x>290</x>
+        <y>250</y>
+        <width>221</width>
+        <height>41</height>
+        </rect>
+        </property>
+    </widget>
+    <widget class="QPushButton" name="saveIP_btn">
+        <property name="geometry">
+        <rect>
+        <x>360</x>
+        <y>370</y>
+        <width>91</width>
+        <height>23</height>
+        </rect>
+        </property>
+        <property name="text">
+        <string>Save </string>
+        </property>
+    </widget>
+    <widget class="QLabel" name="label">
+        <property name="geometry">
+        <rect>
+        <x>180</x>
+        <y>30</y>
+        <width>281</width>
+        <height>41</height>
+        </rect>
+        </property>
+        <property name="text">
+        <string>Please input the website address for simple DNS search</string>
+        </property>
+    </widget>
+    </widget>
+    <widget class="QMenuBar" name="menubar">
+    <property name="geometry">
+        <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>20</height>
+        </rect>
+    </property>
+    </widget>
+    <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources/>
+    <connections/>
+    </ui>
